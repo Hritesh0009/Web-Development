@@ -5,7 +5,7 @@ import Form from './components/Form'; // Importing Form component
 import ItemDate from './components/ItemDate'; // Importing ItemDate component
 import Card from './components/Card'; // Importing Card component
 
-ritesh
+
 // Main App component
 function App() {
   // Sample data array containing items with their details

@@ -1,0 +1,11 @@
+table, th, td {
+    border: 2px solid maroon;
+    
+  }
+table{
+    flex: auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}  ;
