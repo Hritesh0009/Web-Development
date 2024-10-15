@@ -1,14 +1,12 @@
 /* write your css here */
-.main-div{
+.maindiv{
   height: 100vh;
-  width: 70%;
-  
+  width: 75vw;
   background-color: rgb(70, 255, 233);
-
-  display: flex;
+  /* display: flex; */
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 25px;
   
   flex-direction: column;
 }

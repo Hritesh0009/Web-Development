@@ -1,7 +1,7 @@
 import './ProductItem.css';
 import ProductDate from './ProductDate';
 import Card from './Card';
-import React, {useState} from 'react';
+import React, {useState} from 'react';  //first import it to use
 
 const ProductItem = (props) => {
     // Declare state variable `title` with initial value from props and a function `setTitle` to update it.
@@ -32,6 +32,7 @@ const ProductItem = (props) => {
             </div>
             
             {/* Button element with an onClick event that triggers clickHandler function */}
+            {/*Bracket is not used with function name clickHandler() like this because it will directly give function call without evaluation */}
             <button className='btn' onClick={clickHandler}>add to cart</button>
         </Card>
     );

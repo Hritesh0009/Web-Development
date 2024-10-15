@@ -10,15 +10,14 @@ function NewProduct(props)
     console.log(product);
 
     //calling parent function
-    props.pranay(product);  //we call pranay prop in app.js 
+    props.hritesh(product);  //we call pranay prop in app.js 
   }
 
-  return 
-  (
+  return (
     <div className="new-product">
       <ProductForm onSaveProduct={saveProduct} />
-      {/*above we pass a function to a prop in NewProduct*/}   
-    </div>
+       {/*above we pass a function to a prop in NewProduct*/}  
+      </div>
   );
 }
 
