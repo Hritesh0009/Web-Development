@@ -4,6 +4,7 @@ import Card from './Card';
 import React, {useState} from 'react';  //first import it to use
 
 const ProductItem = (props) => {
+    
     // Declare state variable `title` with initial value from props and a function `setTitle` to update it.
     const [title, setTitle] = useState(props.title);
 
