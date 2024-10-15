@@ -10,7 +10,7 @@ function NewProduct(props)
     console.log(product);
 
     //calling parent function
-    props.hritesh(product);  //we call pranay prop in app.js 
+    props.propDrilling(product);  //we call pranay prop in app.js 
   }
 
   return (

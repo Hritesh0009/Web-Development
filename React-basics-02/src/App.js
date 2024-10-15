@@ -51,7 +51,7 @@ function App() {
   return (
     <div className="maindiv">
       {/* Rendering NewProduct component and passing printProductData function as the `hritesh` prop */}
-      <NewProduct hritesh={printProductData} />
+      <NewProduct propDrilling={printProductData} />
 
       {/* Rendering Products component and passing the products array as the `items` prop */}
       <Products items={products} />
